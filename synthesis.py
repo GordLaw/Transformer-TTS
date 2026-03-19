@@ -52,9 +52,9 @@ def synthesis(text, args):
 if __name__ == '__main__':
     
     parser = argparse.ArgumentParser()
-    parser.add_argument('--restore_step1', type=int, help='Global step to restore checkpoint', default=172000)
+    parser.add_argument('--restore_step1', type=int, help='Global step to restore checkpoint', default=160000)
     parser.add_argument('--restore_step2', type=int, help='Global step to restore checkpoint', default=100000)
     parser.add_argument('--max_len', type=int, help='Global step to restore checkpoint', default=400)
 
     args = parser.parse_args()
-    synthesis("Transformer model is so fast!",args)
+    synthesis("Tsok-tsiá: Tân Lī-bûn",args)
