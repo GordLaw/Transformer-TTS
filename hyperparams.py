@@ -23,7 +23,7 @@ n_iter = 60
 # power = 1.5
 outputs_per_step = 1
 
-epochs = 1000
+epochs = 5000
 lr = 0.001
 save_step = 2000
 image_step = 500
@@ -31,6 +31,6 @@ batch_size = 32
 
 cleaners='english_cleaners'
 
-data_path = './data/TAT-Vol2'
+data_path = '/kaggle/input/datasets/gordl2/audiofiles/data'
 checkpoint_path = './checkpoint'
 sample_path = './samples'
